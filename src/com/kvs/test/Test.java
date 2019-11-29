@@ -12,7 +12,7 @@ import com.kvs.KeyValueStore;
 public class Test {
 
     public static void main(String[] args) throws Exception {
-        KeyValueStore store = new KeyValueStore("/Users/vignesh-2506/kks");
+        KeyValueStore store = new KeyValueStore("/Users/vignesh/kks");
         testAdd(store);
         testDelete(store);
         testDuplicateAdd(store);
